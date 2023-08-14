@@ -3,13 +3,12 @@ diferentes!!â€:
 A) As duas strings devem ser definidas como char[10], conforme abaixo:*/
 
 #include <stdio.h>
-char f1[10];
-char f2[10];
+char f1[10], f2[10];
 
 int main() {
     printf("Digite a primeira string: ");
     scanf("%9s", f1); /* limitar a leitura a 9 caracteres,
-	deixar espaço para o caractere nulo */
+	deixar espaï¿½o para o caractere nulo */
     f1[9] = '\0';
     
     printf("Digite a segunda string: ");
