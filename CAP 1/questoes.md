@@ -27,15 +27,15 @@ d) A estrutura de diretorios em um sistema operacional
 Resposta:
 
 a) Grafo
-b) Arvore
+b) Árvore
 c) Fila
-d) Arvore
+d) Árvore
 ```
 
 1.3 Ao ser executado, o programa a seguir exibe a palavra diferentes.
 Explique por que isso acontece.
 
-```
+```c
 #include <stdio.h>
 int main (void) {
     char s[3] = "um";
@@ -55,7 +55,7 @@ O programa exibe a palavra diferentes, pois o operador == compara os endereços 
 
 1.4 Explique o que acontece quando o programa a seguir é executado.
 
-``` 
+```c 
 #include <stdio.h>
 
 typedef struct {char valor[10];} Str;
@@ -79,7 +79,7 @@ O programa exibe as palavras um e dois, pois o operador = copia o conteúdo do v
 
 1.5 Explique o que acontece quando o programa a seguir é executado.
 
-```
+```c
 #include <stdio.h>
 int main() {
     int a = 3, b = 5;
@@ -101,8 +101,8 @@ O programa exibe os números 5 e 3, pois o operador * acessa o conteúdo do ende
 
 1.6 Indique a forma de alocação de memória (estática sequencial, estática encadeada, dinâmica sequencial ou dinâmica encadeada) usada para armazenar os itens 1,2,3 e 4, em cada um dos programas a seguir.
 
-```
 (a)
+```c
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -122,8 +122,8 @@ Resposta:
 Dinâmica sequencial
 ```
 
-```
 (b)
+```c
 
 #include <stdio.h>
 
@@ -149,9 +149,9 @@ Resposta:
 
 Estática encadeada
 ```
-
-```
 (c)
+
+```c
 
 #include <stdio.h>
 #include <stdlib.h>
