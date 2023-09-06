@@ -3,6 +3,6 @@
 void main() {
 	int x, *p;
 	x = 100;
-	p = x;
+	p = &x;
 	printf("Valor de p: %d \n", *p);
 }
