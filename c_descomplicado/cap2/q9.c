@@ -6,7 +6,7 @@ int main() {
 	printf("Angulo em graus: ");
 	scanf("%f", &angulo);
 	
-	anguloRadiano = angulo * 3.14 / 180;
+	anguloRadiano = angulo * 3.141592 / 180;
 	
 	printf("Em radianos: %f\n", anguloRadiano);
 	system("pause");
