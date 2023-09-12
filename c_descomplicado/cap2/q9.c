@@ -1,14 +1,15 @@
-# include <stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-	float angulo, anguloRadiano;
+	const int Pi = 3.141592;
+	int angulo_graus;
+	printf("valor do angulo em graus: ");
+	scanf("%d", &angulo_graus);
 	
-	printf("Angulo em graus: ");
-	scanf("%f", &angulo);
+	int radianos = angulo_graus * Pi/180;
+	printf("convertido para radiano: %d\n", radianos);
 	
-	anguloRadiano = angulo * 3.141592 / 180;
-	
-	printf("Em radianos: %f\n", anguloRadiano);
 	system("pause");
 	return 0;
 }

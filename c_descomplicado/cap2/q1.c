@@ -1,15 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-	int x, sucessor, antecessor;
+	int n;
+	printf("numero: ");
+	scanf("%d", &n);
 	
-	printf("Valor de x: ");
-	scanf("%d", &x);
+	int antecessor = n -= 1;
+	int sucessor = n += 2; 
 	
-	antecessor = x += -1;
-	sucessor = x += 2;
+	printf("antecessor = %d\nsucessor = %d\n", antecessor, sucessor);
 	
-	printf("\nAntecessor: %d \nSucessor: %d\n", antecessor, sucessor);
 	system("pause");
 	return 0;
 }

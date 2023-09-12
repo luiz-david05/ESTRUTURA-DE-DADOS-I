@@ -1,14 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-	int x, quintaParte;
+	int numero_real;
+	printf("numero real: ");
+	scanf("%d", &numero_real);
 	
-	printf("Valor de x: ");
-	scanf("%d", &x);
+	int quinta_parte = numero_real /= 5;
+	printf("quinta parte = %d\n", quinta_parte);
 	
-	quintaParte = x / 5;
-	
-	printf("Quinta parte de %d = %d\n", x, quintaParte);
 	system("pause");
 	return 0;
 }

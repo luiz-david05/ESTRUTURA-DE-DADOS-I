@@ -1,14 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-	float vMs, vKm;
-	
-	printf("Velocidade em km/h: ");
+	float vKm;
+	printf("velocidade em km/h: ");
 	scanf("%f", &vKm);
 	
-	vMs = vKm / 3.6;
+	float vMs = vKm /= 3.6;
+	printf("velocidade em m/s: %1.1f\n", vMs);
 	
-	printf("Velocidade em m/s: %1.f\n", vMs);
 	system("pause");
 	return 0;
 }

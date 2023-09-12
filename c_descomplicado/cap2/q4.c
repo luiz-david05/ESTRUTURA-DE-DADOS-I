@@ -1,14 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-	float n1, n2, n3, n4;
+	float a, b, c, d;
+	printf("valores notas: ");
+	scanf("%f %f %f %f", &a, &b, &c, &d);
 	
-	printf("Digite as quatro notas: ");
-	scanf("%f %f %f %f", &n1, &n2, &n3, &n4);
+	float media = (a + b + c + d) / 4;
+	printf("media = %1.1f\n", media);
 	
-	float media = (n1 + n2 + n3 + n4) / 4;
-	
-	printf("Media aritmetica dos valores: %1.f\n", media);
 	system("pause");
 	return 0;
 }

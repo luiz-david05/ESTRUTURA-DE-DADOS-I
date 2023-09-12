@@ -1,14 +1,15 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-	float valor = 780000.00, premio1, premio2, premio3;
+	float valor = 780000.00;
+	float premio_1 = valor * 0.46;
+	float premio_2 = valor * 0.32;
+	float premio_3 = valor * 0.22;
+	printf("valor premio primeiro ganhador: %.2f\n", premio_1);
+	printf("valor premio segundo ganhador: %.2f\n", premio_2);
+	printf("valor premio terceiro ganhador: %.2f\n", premio_3);
 	
-	premio1 = valor * 0.46;
-	premio2 = valor * 0.32;
-	premio3 = valor * 0.22;
-	
-	printf("Premio primeiro ganhador: %f\nPremio do segundo ganhador: %f \
-	\nPremio do terceiro ganhador: %f\n", premio1, premio2, premio3);
 	system("pause");
 	return 0;
 }

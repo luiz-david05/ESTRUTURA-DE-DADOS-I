@@ -1,14 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-	float tempCelsius, tempFahrenheit;
+	float temp_celsius;
+	printf("temperatura em graus celsius: ");
+	scanf("%f", &temp_celsius);
 	
-	printf("Temperatura em graus celsius: ");
-	scanf("%f", &tempCelsius);
+	float temp_fahren = temp_celsius * (9 / 5) + 32;
+	printf("temperatura em graus fahrenheit: %.1f\n", temp_fahren);
 	
-	tempFahrenheit = tempCelsius * (9 / 5) + 32;
-	
-	printf("Temperatura em graus fahrenheit: %1.f\n", tempFahrenheit);
 	system("pause");
 	return 0;
 }

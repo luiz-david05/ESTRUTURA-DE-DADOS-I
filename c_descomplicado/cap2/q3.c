@@ -1,14 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-	int x, y, z;
+	int a, b, c;
+	printf("valores: ");
+	scanf("%d %d %d", &a, &b, &c);
 	
-	printf("Valores de x, y e z: ");
-	scanf("%d %d %d", &x, &y, &z);
+	int soma = a + b + c;
+	printf("soma = %d\n", soma);
 	
-	int soma = x + y + z;
-	
-	printf("Soma dos valores = %d\n", soma);
 	system("pause");
 	return 0;
 }
