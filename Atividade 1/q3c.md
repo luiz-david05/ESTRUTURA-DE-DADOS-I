@@ -1,2 +1,0 @@
-As principais diferenças entre os dois são:
-a abordagem de manipulação de strings, nas bibliotecas usadas e nas sintaxes das linguagens. Ambos os códigos alcançam o mesmo resultado, mas de maneiras distintas. O código em c++ é mais simples e direto, enquanto que o em c é mais complexo e trabalhoso, devido as facilidades que a linguagem c++ oferece.
